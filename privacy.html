@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · [CHANNEL NAME]</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="./">[CHANNEL NAME]</a>
+  <nav><a href="./">Home</a><a href="privacy.html">Privacy policy</a></nav>
+</header>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="lede">Last updated: November 25, 2026</p>
+
+  <p>This policy covers the [CHANNEL NAME] Uploader (the "app"), a personal tool run by [YOUR NAME], the owner of the [CHANNEL NAME] YouTube channel. The app publishes the channel's own videos to YouTube using YouTube API Services. It has one user: the channel owner.</p>
+
+  <h2>Google and YouTube data the app accesses</h2>
+  <p>The app signs in only to the channel owner's Google account, with these permissions:</p>
+  <ul>
+    <li><strong>Upload videos</strong> (<code>youtube.upload</code>): to upload the channel's finished videos.</li>
+    <li><strong>Manage the channel's videos</strong> (<code>youtube.force-ssl</code>): to set each video's thumbnail and closed captions, update its title, description and publish time, and read the titles of the channel's recent uploads so the same video is never posted twice.</li>
+  </ul>
+  <p>The app does not access any other person's account or data. It does not read comments, subscribers, viewer data, email, contacts or files.</p>
+
+  <h2>How the data is used</h2>
+  <p>Data is used only to upload and manage the channel owner's own videos on the owner's own channel. It is not used for advertising, profiling or any other purpose.</p>
+
+  <h2>What the app stores</h2>
+  <ul>
+    <li><strong>A sign-in token</strong> (an OAuth refresh token), kept in an encrypted secret store (GitHub Actions secrets) or in a file on the owner's computer that only the owner can read.</li>
+    <li><strong>An upload log</strong> of the channel's own uploads: video ID, title and upload time. It is kept in the owner's private code repository.</li>
+  </ul>
+  <p>Nothing is stored about anyone other than the channel owner.</p>
+
+  <h2>Sharing</h2>
+  <p>No data is sold, rented or shared with anyone. Video files and their details are sent only to YouTube, as part of uploading them.</p>
+
+  <h2>Keeping and deleting data</h2>
+  <p>The sign-in token is kept until the owner revokes it or deletes it from the secret store. The upload log is kept for as long as the channel uses the app, and the owner can delete it at any time. Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, which stops the app from reaching the account.</p>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>The app's use of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>YouTube API Services</h2>
+  <p>The app uses YouTube API Services. By using it you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a></p>
+</main>
+<footer>
+  © 2026 [CHANNEL NAME] · <a href="./">Home</a>
+</footer>
+</body>
+</html>
